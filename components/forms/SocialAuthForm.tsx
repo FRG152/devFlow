@@ -12,9 +12,7 @@ const SocialAuthForm = () => {
 
   const handleSignIn = async (provider: "github" | "google") => {
     try {
-      await signIn(provider, {
-        redirect: false,
-      });
+      await signIn(provider, { redirectTo: ROUTES.HOME });
     } catch (error) {
       console.log(error);
       toast("Sign-in Failed", {
