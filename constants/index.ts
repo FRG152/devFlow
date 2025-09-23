@@ -35,3 +35,16 @@ export const sidebarLinks = [
     label: "Ask a question",
   },
 ];
+
+export const popularTags = [
+  { _id: "1", name: "JavaScript", questions: 10 },
+  { _id: "2", name: "React", questions: 10 },
+  { _id: "3", name: "NextJs", questions: 10 },
+  { _id: "4", name: "Tailwind", questions: 10 },
+  { _id: "5", name: "TypeScript", questions: 10 },
+  { _id: "6", name: "Node", questions: 10 },
+  { _id: "7", name: "Express", questions: 10 },
+  { _id: "8", name: "MongoDB", questions: 10 },
+  { _id: "9", name: "PostgreSQL", questions: 10 },
+  { _id: "10", name: "MySQL", questions: 10 },
+];
